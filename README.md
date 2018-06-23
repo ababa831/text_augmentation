@@ -10,7 +10,7 @@ Kaggleの自然言語処理系コンペでAugmentationが認められている�
 ## 仕組み
 
 1. 入力された言語を，一時的に別の言語に翻訳する（入力時に指定）
-2. 別の言語に変換された文書を，元の言語に再翻訳する
+2. 別の言語に翻訳された文書を，元の言語に再翻訳する
 3. 再翻訳された文書データを出力する
 
 翻訳，再翻訳はGoogle Translation APIの[Pythonクライアントライブラリ](https://developers.google.com/api-client-library/python/apis/translate/v2)を利用する．

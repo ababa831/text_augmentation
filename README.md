@@ -37,7 +37,7 @@ Kaggleの自然言語処理系コンペでAugmentationが認められている�
 - **大量の文書データを処理する場合は，予めTranslation APIの[利用料金](https://cloud.google.com/translate/pricing?hl=ja)をシミュレートすることを強く推奨する（下手すると，数百万円課金される可能性あり）**
 - Translation APIのquataデフォルト値では，翻訳のリクエスト頻度の上限が処理速度のボトルネックになる
     - 100s当たりで翻訳できるchara(文字)数の上限を引き上げれば，ボトルネックを解消できる ([参考](https://cloud.google.com/translate/limits?hl=ja))
-    - サンプル数が多い場合は，一日当たりで翻訳できるchara(文字)の上限数も併せて引き上げた方がよい
+    - サンプル数が多い場合は，一日当たり翻訳できるchara(文字)の上限数も併せて引き上げた方がよい
 
 
 
